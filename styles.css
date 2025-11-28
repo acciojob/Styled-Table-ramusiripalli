@@ -1,1 +1,18 @@
 /* your code */
+
+table{
+	border-collapse:collapse;
+	border:1px solid black;
+}
+th,td{
+	padding:15px;
+}
+
+thead{
+	background-color:blueviolet;
+	color:white;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
